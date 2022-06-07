@@ -149,10 +149,10 @@ header nav ul li a:hover {
   
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 605px) {
 
   .text {
-    font-size: 10px
+    font-size: 12px
   }
 
   .portImg {
@@ -161,7 +161,11 @@ header nav ul li a:hover {
   }
 
   .form {
-    width: 200px;
+    width: 190px;
+  }
+
+  .form-input {
+    padding: 8px;
   }
 
 }
@@ -174,4 +178,22 @@ header nav ul li a:hover {
     padding: 3px;
     }
 
+    .form-input {
+      padding: 0px;
+    }
+}
+
+@media screen and (max-width: 305px) {
+  .text {
+    font-size: 8px
+  }
+
+  .portImg {
+    width: 80%;
+    height: 80%;
+  }
+
+  .form {
+    width: 150px;
+  }
 }
