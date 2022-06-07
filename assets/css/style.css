@@ -27,7 +27,7 @@ body {
   }
 
 .pt {
-  padding-top: 50px;
+  padding-top: 30px;
   }
 
 .contacts a {
@@ -92,14 +92,16 @@ header nav ul li a:hover {
 
 .container {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
   }
 
 .text {
   font-size: 18px;
   padding-left: 20px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
+  width: 80%;
   }
 
 .portImg {
@@ -127,23 +129,10 @@ header nav ul li a:hover {
   }
 }
 
-@media screen and (max-width: 770px) {
-
-  .image {
-    width: 100%;
-    height: 100%;
-  }
-
-  .contacts {
-    width: 100%;
-    height: 100%;
-  }
-}
-
 @media screen and (max-width: 605px) {
 
   .text {
-    font-size: 12px
+    font-size: 12px;
   }
 
   .portImg {
@@ -153,6 +142,11 @@ header nav ul li a:hover {
 
   .form {
     width: 190px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
   }
 
   .form-input {
@@ -176,7 +170,7 @@ header nav ul li a:hover {
 @media screen and (max-width: 305px) {
   
   .text {
-    font-size: 8px
+    font-size: 8px;
   }
 
   .portImg {
